@@ -1,6 +1,6 @@
 {
   "name": "@aphorica/vuetify-icon-stack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Multiple icon stack, clickable option",
   "main": "index.js",
   "repository": "https://github.com/Aphorica/vuetify-icon-stack",
@@ -8,6 +8,6 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "@aphorica/vue-event-bus": "^1.0.1"
+    "@aphorica/vue-event-bus": "^1.0.0"
   }
 }
