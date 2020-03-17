@@ -15,7 +15,7 @@
 import {EventBus} from "@aphorica/vue-event-bus"
 
 export default {
-  name: 'vuetify-multi-icon',
+  name: 'vuetify-icon-stack',
   props: [{
             name: "iconDefs",
             type: Object,
