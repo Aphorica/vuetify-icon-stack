@@ -21,10 +21,11 @@
     <v-content>
       <v-row class="main" justify="center" align="center">
         <vuetify-icon-stack :initialState="currentState"
+                            size="100px"
           @clicked="onStackIconClicked">
-          <v-icon data-state="add" color="primary" x-large>mdi-plus-circle</v-icon>
-          <v-icon data-state="commit" color="primary" x-large>mdi-check-circle</v-icon>
-          <v-icon data-state="abort" color="black" x-large>mdi-close-circle</v-icon>
+          <v-icon data-state="add" color="primary">mdi-plus-circle</v-icon>
+          <v-icon data-state="commit" color="primary">mdi-check-circle</v-icon>
+          <v-icon data-state="abort" color="black">mdi-close-circle</v-icon>
         </vuetify-icon-stack>
       </v-row>
     </v-content>

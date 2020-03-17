@@ -16,6 +16,10 @@ export default {
             initialState: {
               type: [String,Number],
               required: true
+            },
+            size: {
+              type: String,
+              required: false
             }
           },
   data: function() {return{
@@ -24,8 +28,12 @@ export default {
   mounted() {
     this.stateSet = {}
 
-    for (let icon of this.$refs.ctnr.children)
+    for (let icon of this.$refs.ctnr.children) {
       this.stateSet[icon.dataset.state] = icon
+      if (this.size) {
+        icon.style.fontSize = this.size
+      }
+    }
 
     this.setIconVisibility()
 

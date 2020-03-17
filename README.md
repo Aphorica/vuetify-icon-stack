@@ -50,7 +50,7 @@ in the __Usage__ section below.
 
 ## Usage
 
-The module is impemented as a simple container with a 
+The module is implemented as a simple container with a 
 single slot for your icons.  Icons must be tagged with
 a `data-state` attribute specifying the state for that
 icon.  State can be anything.
@@ -75,8 +75,14 @@ emit a message to it:
 
 Note that if you send an invalid state, it will silently fail.
 
-The component requires a single prop, `initialState`, which
-is required.
+## props
+
+The component accepts two props:
+
+### initialState (required)
+
+Specify the state corresponding to the icon you want to
+show on instantiation.
 
 ```
         <vuetify-icon-stack :initialState="currentState">
@@ -84,4 +90,21 @@ is required.
           ...
         </vuetify-icon-stack>
 ```
+
+### size (optional)
+
+Specify the icon size.  Any css spec will work.
+
+```
+        <vuetify-icon-stack :initialState="currentState"
+                            size="100px">
+          ...
+          ...
+        </vuetify-icon-stack>
+```
+
+If you don't specify the size, the icons will be displayed in
+their normal size.  Note they should all be the same size
+if you're using v-icon properties like `x-large` (but that
+is not enforced)
 

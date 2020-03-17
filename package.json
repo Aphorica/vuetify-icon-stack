@@ -8,6 +8,6 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "@aphorica/vue-event-bus": "^1.0.0"
+    "@aphorica/vue-event-bus": "^1.0.1"
   }
 }
