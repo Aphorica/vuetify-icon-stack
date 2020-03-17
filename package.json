@@ -1,0 +1,10 @@
+{
+  "name": "@aphorica/vuetify-multi-icon",
+  "version": "1.0.0",
+  "description": "Multiple icon stack, clickable option",
+  "main": "index.js",
+  "repository": "https://github.com/Aphorica/vuetify-multi-icon",
+  "author": "Rick Berger - Aphorica, Inc. <gbergeraph@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
