@@ -1,8 +1,12 @@
 # @aphorica/vuetify-icon-stack
 
+<h1 style="color:red"> CURRENTLY IN DEVELOPMENT - DO NOT USE</h1>
+
 github: https://aphorica.github.com<br/>
 Web: https://aphorica.com
 
+
+<!--
 ## Installing
 
 `npm install @aphorica/vuetify-icon-stack`
@@ -34,3 +38,4 @@ Stack order does not change, only button visibility changes.
 
 Clicking on the icon returns the associated state with
 the visible icon.
+-->
