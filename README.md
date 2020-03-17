@@ -1,15 +1,15 @@
-# @aphorica/vuetify-multi-icon
+# @aphorica/vuetify-icon-stack
 
 github: https://aphorica.github.com<br/>
 Web: https://aphorica.com
 
 ## Installing
 
-`npm install @aphorica/vuetify-multi-icon`
+`npm install @aphorica/vuetify-icon-stack`
 
 or
 
-`yarn add @aphorica/vuetify-multi-icon`
+`yarn add @aphorica/vuetify-icon-stack`
 
 ## Running the Demo
 
@@ -24,8 +24,13 @@ Open a browser on `localhost:8080`
 
 ## Overview
 
-Implements an icon stack, each icon associated with a state.  When
-a state is set, the associated icon lifts to the top of the stack
-and is visible.
+Extremely light implementation of an icon stack.
 
-Clicking on the icon returns the associated state.
+Each icon is associated with a state.  When a state is
+subsequently set, the associated icon becomes visible and
+clickable.
+
+Stack order does not change, only button visibility changes.
+
+Clicking on the icon returns the associated state with
+the visible icon.
